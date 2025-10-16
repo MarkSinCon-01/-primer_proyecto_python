@@ -32,3 +32,22 @@ while intentos_realizados < intentos_maximos:
 # 4. Mostrar el número correcto si el usuario no adivinó
 if intento != numero_secreto:
     print(f"📢 El número secreto era: {numero_secreto}")
+    
+#------Proceso Adivinar_Numero_Secreto
+
+    Definir numero_secreto, intento Como Entero
+
+    numero_secreto <- 7
+
+    Escribir "Adivina el número secreto (entre 1 y 10):"
+    Leer intento
+
+    Mientras intento <> numero_secreto Hacer
+        Escribir "❌ Ese no es el número. Intenta de nuevo."
+        Escribir "Adivina otra vez:"
+        Leer intento
+    FinMientras
+
+    Escribir "✅ ¡Correcto! Has adivinado el número secreto."
+
+FinProceso-------#
